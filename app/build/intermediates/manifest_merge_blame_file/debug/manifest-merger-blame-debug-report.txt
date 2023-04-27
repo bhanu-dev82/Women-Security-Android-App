@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bhanu.wesafe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.telephony"
+12-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:6:9-50
+13        android:required="false" />
+13-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:9:5-81
+15-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:11:5-67
+17-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:11:22-64
+18
+19    <application
+19-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:14:5-33:19
+20        android:allowBackup="true"
+20-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:15:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] /home/bhd/.gradle/caches/transforms-3/23243888ba5f289570ad68386ac1dd68/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:16:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:17:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:18:9-43
+27        android:label="@string/app_name"
+27-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:19:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:20:9-54
+29        android:supportsRtl="true"
+29-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:21:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.WeSafe" >
+31-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:22:9-44
+32        <activity
+32-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:24:9-32:20
+33            android:name="com.bhanu.wesafe.MainActivity"
+33-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:25:13-41
+34            android:exported="true" >
+34-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:26:13-36
+35            <intent-filter>
+35-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:27:13-31:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:17-69
+36-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:30:17-77
+38-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:30:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/.gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/.gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+44            android:authorities="com.bhanu.wesafe.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/.gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/.gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/.gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/.gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/.gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/.gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/.gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/.gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>
