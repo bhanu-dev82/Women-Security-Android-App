@@ -1,82 +1,94 @@
 [
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/xml_backup_rules.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/drawable/ic_launcher_background.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/drawable_edit_text_background.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/drawable/edit_text_background.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.bhanu.wesafe.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.bhanu.wesafe.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/xml_backup_rules.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/xml/backup_rules.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.bhanu.wesafe.app-merged_res-25:/layout_activity_main.xml.flat",
-        "source": "com.bhanu.wesafe.app-main-27:/layout/activity_main.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/layout_activity_main.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/layout/activity_main.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/drawable_logo.png.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/drawable/logo.png"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/xml/data_extraction_rules.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/layout_activity_loading.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/layout/activity_loading.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/layout_activity_loading.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/layout/activity_loading.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.bhanu.wesafe.app-merged_res-4:/drawable_button_rounded.xml.flat",
+        "source": "com.bhanu.wesafe.app-main-6:/drawable/button_rounded.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/drawable_logo.png.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/drawable/logo.png"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/bhd/.gradle/daemon/8.0/com.bhanu.wesafe.app-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/drawable_pink_button_background.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/drawable/pink_button_background.xml"
+    },
+    {
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
     }
 ]

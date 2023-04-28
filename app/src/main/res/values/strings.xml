@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">we safe</string>
+    <string name="loading_text">Loading....</string>
 </resources>

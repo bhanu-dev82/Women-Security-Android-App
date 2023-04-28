@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class LoadingActivity : AppCompatActivity() {
-    private val splashTimeout: Long = 3000 // 3 seconds
+    private val splashTimeout: Long = 1500 // 1.5 seconds
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

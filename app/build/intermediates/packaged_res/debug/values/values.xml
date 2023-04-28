@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="dark_pink">#FF1493</color>
+    <color name="light_pink">#FFE0E6</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="primary">#FFC0CB</color>
+    <color name="purple_500">#6200EE</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">we safe</string>
-    <style name="Base.Theme.WeSafe" parent="Theme.Material3.DayNight.NoActionBar">
+    <string name="loading_text">Loading....</string>
+    <style name="Base.Theme.WeSafe" parent="Theme.Material3.Light.NoActionBar">
         
-        
+
     </style>
     <style name="Theme.WeSafe" parent="Base.Theme.WeSafe"/>
 </resources>
