@@ -28,7 +28,7 @@
 17-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:11:22-64
 18
 19    <application
-19-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:14:5-43:19
+19-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:14:5-42:19
 20        android:allowBackup="true"
 20-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:15:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -51,61 +51,57 @@
 31        android:theme="@style/Theme.WeSafe" >
 31-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:22:9-44
 32        <activity
-32-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:24:9-32:20
+32-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:24:9-31:20
 33            android:name="com.bhanu.wesafe.MainActivity"
 33-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:25:13-41
 34            android:exported="true" >
 34-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:26:13-36
 35            <intent-filter>
-35-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:27:13-31:29
+35-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:27:13-30:29
 36                <action android:name="android.intent.action.MAIN" />
 36-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:17-69
 36-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:30:17-77
-38-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:30:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:34:9-42:20
-42            android:name="com.bhanu.wesafe.LoadingActivity"
-42-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:35:13-44
-43            android:exported="true" >
-43-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:36:13-36
-44            <intent-filter>
-44-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:27:13-31:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:17-69
-45-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:30:17-77
-47-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:30:27-74
-48            </intent-filter>
-49        </activity>
-50
-51        <provider
-51-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-53            android:authorities="com.bhanu.wesafe.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-61        </provider>
-62    </application>
-63
-64</manifest>
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:33:9-41:20
+40            android:name="com.bhanu.wesafe.LoadingActivity"
+40-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:34:13-44
+41            android:exported="true" >
+41-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:35:13-36
+42            <intent-filter>
+42-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:36:13-40:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:17-69
+43-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:39:17-77
+45-->/home/bhd/AndroidStudioProjects/wesafe/app/src/main/AndroidManifest.xml:39:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+51            android:authorities="com.bhanu.wesafe.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/11ba774d8255e04d18617ddaf3d71eee/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/bhd/app/Android Studio/plugins/gradle/caches/transforms-3/cae62511b288406bc5985af3feb8aeeb/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
