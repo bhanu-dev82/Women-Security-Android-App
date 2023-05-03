@@ -37,8 +37,10 @@ class MainActivity : AppCompatActivity() {
         private lateinit var locationManager: LocationManager
         private lateinit var locationListener: LocationListener
         private var volumeButtonPressedTime: Long = 0
+        private var location: Location? = null
 
-        override fun onCreate(savedInstanceState: Bundle?) {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)
 
@@ -236,24 +238,51 @@ class MainActivity : AppCompatActivity() {
             locationManager.removeUpdates(locationListener)
         }
 
-        private fun getLastKnownLocation(): String {
-            // Get last known location
-            var location: Location? = null
-            if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
-                == PackageManager.PERMISSION_GRANTED
-            ) {
-                location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)
-            }
-
-            // Format location as a string
-            return if (location != null) {
-                "I need help! My location is: https://www.google.com/maps/search/?api=1&query=${location.latitude},${location.longitude}"
-            } else {
-                "unknown location"
-            }
+    private fun getLastKnownLocation(): String {
+        // Check if location permission is granted
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+            != PackageManager.PERMISSION_GRANTED
+        ) {
+            return "Location permission not granted"
         }
 
-        private fun showSavedContacts() {
+        // Check if location services are enabled
+        val locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
+        if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+            return "Location services disabled"
+        }
+
+        // Get last known location
+        var location: Location? = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)
+        if (location == null) {
+            // Request location updates
+            locationManager.requestLocationUpdates(
+                LocationManager.GPS_PROVIDER,
+                0L,
+                0f,
+                object : LocationListener {
+                    override fun onLocationChanged(location: Location) {
+                        // Update location and remove listener
+                        this@MainActivity.location = location
+                        locationManager.removeUpdates(this)
+                    }
+
+                    override fun onProviderEnabled(provider: String) {}
+
+                    override fun onProviderDisabled(provider: String) {}
+
+                    override fun onStatusChanged(provider: String?, status: Int, extras: Bundle?) {}
+                }
+            )
+            return "Location not available"
+        }
+
+        // Format location as a string
+        return "I need help! My location is: https://www.google.com/maps/search/?api=1&query=${location.latitude},${location.longitude}"
+    }
+
+
+    private fun showSavedContacts() {
             if (emergencyContacts.isNotEmpty()) {
                 val message = "Saved emergency contacts:\n${emergencyContacts.joinToString("\n")}"
                 Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
