@@ -21,6 +21,7 @@ id loading_text
 id logo
 id progress_bar
 id remove_contact_button
+id volume_button_view
 layout activity_loading
 layout activity_main
 mipmap ic_launcher

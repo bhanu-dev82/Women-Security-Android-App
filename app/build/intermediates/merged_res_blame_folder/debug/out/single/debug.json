@@ -60,10 +60,6 @@
         "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.bhanu.wesafe.app-merged_res-4:/drawable_button_rounded.xml.flat",
-        "source": "com.bhanu.wesafe.app-main-6:/drawable/button_rounded.xml"
-    },
-    {
         "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/layout_activity_main.xml.flat",
         "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/layout/activity_main.xml"
     },
@@ -90,5 +86,9 @@
     {
         "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-merged_res-4:/drawable_button_rounded.xml.flat",
+        "source": "/home/bhd/app/Android Studio/plugins/gradle/daemon/8.0/com.bhanu.wesafe.app-main-6:/drawable/button_rounded.xml"
     }
 ]

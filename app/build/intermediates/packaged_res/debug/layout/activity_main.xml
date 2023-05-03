@@ -9,6 +9,14 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <!-- Add a button that represents the physical volume button -->
+        <Button
+            android:id="@+id/volume_button_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            android:contentDescription="Physical volume button" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

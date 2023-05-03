@@ -1,6 +1,7 @@
 package com.bhanu.wesafe
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
@@ -15,6 +16,7 @@ import android.os.Looper
 import android.provider.Settings
 import android.telephony.SmsManager
 import android.util.Log
+import android.view.HapticFeedbackConstants
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.View
@@ -40,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         private var location: Location? = null
 
 
+    @SuppressLint("ClickableViewAccessibility")
     override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)
@@ -170,52 +173,59 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Emergency contacts removed", Toast.LENGTH_SHORT).show()
             }
 
-            // Set volume button long press listener
-            val handler = Handler(Looper.getMainLooper())
-            val volumeButtonRunnable = Runnable {
-                // Send SMS with location to emergency contacts
-                val subscriptionId = SmsManager.getDefaultSmsSubscriptionId()
-                val smsManager = SmsManager.getSmsManagerForSubscriptionId(subscriptionId)
-                val message = getLastKnownLocation()
-                for (contact in emergencyContacts) {
-                    smsManager.sendTextMessage(contact, null, message, null, null)
-                }
+        // Set volume button long press listener
+        val handler = Handler(Looper.getMainLooper())
+        val volumeButtonRunnable = Runnable {
+            // Send SMS with location to emergency contacts
+            val subscriptionId = SmsManager.getDefaultSmsSubscriptionId()
+            val smsManager = SmsManager.getSmsManagerForSubscriptionId(subscriptionId)
+            val message = getLastKnownLocation()
+            for (contact in emergencyContacts) {
+                smsManager.sendTextMessage(contact, null, message, null, null)
+            }
 
-                // Display success message
-                Toast.makeText(this, "Emergency SMS sent", Toast.LENGTH_SHORT).show()
-            }
-            val volumeButtonLongPressListener = View.OnLongClickListener {
-                Log.d("MainActivity", "Volume button long press detected")
-                if (System.currentTimeMillis() - volumeButtonPressedTime >= 5000) {
-                    handler.post(volumeButtonRunnable)
-                    true
-                } else {
-                    false
-                }
-            }
-            volumeControlStream = AudioManager.STREAM_MUSIC
-            findViewById<View>(android.R.id.content).setOnTouchListener { view, event ->
-                Log.d("MainActivity", "OnTouchListener called")
-                if (event.action == MotionEvent.ACTION_DOWN) {
-                    volumeButtonPressedTime = System.currentTimeMillis()
-                } else if (event.action == MotionEvent.ACTION_UP) {
-                    if (System.currentTimeMillis() - volumeButtonPressedTime >= 5000) {
-                        handler.removeCallbacks(volumeButtonRunnable)
-                    } else {
-                        view.performClick()
-                    }
-                }
+            // Display success message
+            Toast.makeText(this, "Emergency SMS sent", Toast.LENGTH_SHORT).show()
+        }
+        val volumeButtonLongPressListener = View.OnLongClickListener {
+            Log.d("MainActivity", "Volume button long press detected")
+            if (System.currentTimeMillis() - volumeButtonPressedTime >= 5000) {
+                handler.post(volumeButtonRunnable)
+                true // return true to indicate that the event has been consumed
+            } else {
                 false
             }
+        }
 
-            // Set click listener for emergency button
-            val emergencyButton = findViewById<Button>(R.id.emergency_button)
-            emergencyButton.setOnLongClickListener(volumeButtonLongPressListener)
-            emergencyButton.setOnClickListener {
-                // Perform the same action as pressing the volume button for 5 seconds
-                handler.postDelayed(volumeButtonRunnable, 5000)
+
+        // Set OnKeyListener on volume button view
+        val volumeButtonView = findViewById<View>(R.id.volume_button_view)
+        volumeButtonView.setOnKeyListener { view, keyCode, event ->
+            if (keyCode == KeyEvent.KEYCODE_VOLUME_UP || keyCode == KeyEvent.KEYCODE_VOLUME_DOWN) {
+                when (event.action) {
+                    KeyEvent.ACTION_DOWN -> {
+                        Log.d("MainActivity", "Volume button pressed")
+                        volumeButtonPressedTime = System.currentTimeMillis()
+                        view.performHapticFeedback(HapticFeedbackConstants.LONG_PRESS)
+                        true
+                    }
+
+                    KeyEvent.ACTION_UP -> {
+                        Log.d("MainActivity", "Volume button released")
+                        if (System.currentTimeMillis() - volumeButtonPressedTime >= 5000) {
+                            handler.removeCallbacks(volumeButtonRunnable)
+                        }
+                        false
+                    }
+
+                    else -> false
+                }
+            } else {
+                false
             }
         }
+    }
+
 
         override fun onResume() {
             super.onResume()
