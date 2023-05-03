@@ -224,6 +224,13 @@ class MainActivity : AppCompatActivity() {
                 false
             }
         }
+        // Set click listener for emergency button
+        val emergencyButton = findViewById<Button>(R.id.emergency_button)
+        emergencyButton.setOnLongClickListener(volumeButtonLongPressListener)
+        emergencyButton.setOnClickListener {
+            // Perform the same action as pressing the volume button for 5 seconds
+            handler.postDelayed(volumeButtonRunnable, 5000)
+        }
     }
 
 
